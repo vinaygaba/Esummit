@@ -1,0 +1,23 @@
+<com.androidhive.dashboard.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="@drawable/back2" 
+    >
+	<!--  News Feed Button -->
+    <Button
+        android:id="@+id/btn_agenda"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_agenda"
+        android:text="Settings" />
+    
+	<!--  Friends Button -->
+    <Button
+        android:id="@+id/btn_friends"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_friends"
+        android:text="Scan" />
+    
+	
+</com.androidhive.dashboard.DashboardLayout>
